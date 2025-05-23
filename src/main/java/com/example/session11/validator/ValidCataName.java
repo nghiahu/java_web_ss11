@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ValidCataName {
-    String message() default "Tên danh mục không được để trống";
+    String message() default "Tên danh mục đã tồn tại";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }

@@ -1,10 +1,13 @@
 package com.example.session11.dto;
 
+import com.example.session11.validator.ValidCataName;
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 public class CategoryDTO {
     private int id;
+    @ValidCataName
     @NotBlank(message = "Tên danh mục không được để trống")
     @Size(max = 50, message = "Tối đa 50 ký tự")
     private String categoryName;

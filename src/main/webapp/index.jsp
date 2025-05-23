@@ -12,6 +12,7 @@
 <a href="registerRole">Bài 5</a> <br>
 <a href="phoneForm">Bài 6</a> <br>
 <a href="evaluteForm">Bài 7</a> <br>
-<a>Bài 8,9</a>
+<a href="listCategory">Bài 8,9</a>
+
 </body>
 </html>

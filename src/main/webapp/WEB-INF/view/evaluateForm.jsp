@@ -24,7 +24,7 @@
     <label>Tên</label>
     <form:input path="evaluate"/> <br>
     <form:errors path="evaluate" type="number" cssStyle="color: red"/> <br>
-    <label>Tên</label>
+    <label>Nội dung đánh giá</label>
     <form:input path="comment"/> <br>
     <form:errors path="comment" cssStyle="color: red"/> <br>
     <input type="submit" value="Đánh giá">
